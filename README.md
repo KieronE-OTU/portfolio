@@ -1,7 +1,11 @@
 # Kieron's Portfolio
 # README
 
-# Responsive layout
+# Links
+- Website: https://kierone-otu.github.io/portfolio/
+- Repository: https://github.com/KieronE-OTU/portfolio
+
+# Responsive layouts
 - Mobile- up to 600px and 94% width and one project per row then,
 - Tablet- 601-900px and 92% width to then,
 - Laptop - 901px+ and 88% width for most room needed for laptop screens.
