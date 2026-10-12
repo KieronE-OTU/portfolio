@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,12 +13,13 @@
 </head>
 
 
+
 <body>
-    <header class="site-header">
-        <div class="page-width">
-            <p class="site-name">Kieron's Portfolio</p>
+    <header class="header">
+        <div class="wrap">
+            <p class="name">Kieron's Portfolio</p>
             <nav aria-label="Main navigation">
-                <ul class="nav-list">
+                <ul class="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Me</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -28,14 +30,14 @@
     </header>
 
 
-    <main class="page-width">
+    <main class="wrap">
 
-        <section class="content-panel" aria-labelledby="contact-heading">
+        <section class="content" aria-labelledby="contact-heading">
             <h1 id="contact-heading">Contact Me</h1>
-            <p>Write me a message here! I make sure that they type a valid input.</p>
+            <p class="note">Write me a message here! (valid input needed)</p>
 
             <!-- all the checks here -->
-            <form class="contact-form" action="#" method="get">
+            <form class="form" action="#" method="get">
                 <p>
                     <label for="name">Name</label>
                     <input id="name" name="name" type="text" required>
@@ -46,7 +48,7 @@
                 </p>
                 <p>
                     <label for="phone">Phone (optional)</label>
-                    <input id="phone" name="phone" type="tel" pattern="[0-9+() .-]{7,20}" title="Use 7 to 20 digits , spaces, or phone punctuation.">
+                    <input id="phone" name="phone" type="tel" pattern="[0-9+() .-]{7,20}" title="Use 7 to 20 digits , spaces, or phone punctuation">
                 </p>
                 <p>
                     <label for="message">Message</label>
@@ -59,11 +61,10 @@
     </main>
 
 
-    <footer class="site-footer">
-        <div class="page-width">
-            <p>Contact: <span class="placeholder-note">kieron.edwards@ontariotechu.net</span></p>
-            <p>© 2026 <span class="placeholder-note">Kieron Edwards</span></p>
-        </div>
+    <footer class="footer">
+        <p>Email: kieron.edwards@ontariotechu.net</p>
     </footer>
+
+
 </body>
 </html>

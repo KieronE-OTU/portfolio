@@ -1,9 +1,10 @@
 /* tablet size */
-.page-width {
+.wrap {
     width: 92%;
 }
 
-.photo-wrapper {
-    width: 60%;
+.photo {
+    width: 65%;
 }
+
 

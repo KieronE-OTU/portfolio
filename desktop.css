@@ -1,8 +1,12 @@
-.page-width {
+.wrap {
     width: 88%;
 }
 
-.project-card {
+.photo {
+    width: 45%;
+}
+
+.project {
     width: 45%;
     margin: 1%;
     padding: 1.5%;

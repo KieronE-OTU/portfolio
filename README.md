@@ -6,12 +6,12 @@ This is my INFR3120 Assignment 1 website. It has four pages: home, about, projec
 
 ## files
 
-- `index.html` — home page
-- `about.html` — about me
-- `projects.html` — four projects
-- `contact.html` — contact form
-- `style.css` — styles
-- `mobile.css`, `tablet.css`, `desktop.css` — styles for different screen sizes each
+- `index.html` - home page
+- `about.html` - about me
+- `projects.html` - four projects
+- `contact.html` - contact form
+- `style.css` - styles
+- `mobile.css`,`tablet.css`,`desktop.css` — styles for different screen sizes each
 
 ## layout
 - Mobile: up to 600px. 1 column
