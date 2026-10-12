@@ -44,14 +44,12 @@ body {
 }
 
 .nav a:hover,
-.nav a:focus,
-.nav a[aria-current="page"] {
+.nav a:focus {
     color: #EF41F2;
     text-decoration: underline;
 }
 
 main {
-    min-height: 60vh;
     padding-top: 28px;
     padding-bottom: 36px;
 }
@@ -93,35 +91,21 @@ a {
 }
 
 .intro a {
-    color: white;
+    color: #0B1926;
 }
 
 .link {
     display: inline-block;
     padding: 8px 14px;
     background-color: #EF41F2;
-    color: #0B1926 !important;
     font-weight: bold;
     text-decoration: none;
 }
 
 .project {
-    width: 45%;
-    min-height: 130px;
-    margin: 1%;
-    padding: 1.5%;
-    float: left;
+    margin: 12px 0;
+    padding: 14px;
     background-color: #f4f2f1;
-}
-
-.project:nth-of-type(odd) {
-    clear: left;
-}
-
-.content::after {
-    display: block;
-    clear: both;
-    content: "";
 }
 
 .photo {
@@ -152,7 +136,6 @@ a {
     width: 100%;
     padding: 10px;
     border: 1px solid #736F6C;
-    font: inherit;
 }
 
 .form button {
@@ -160,7 +143,6 @@ a {
     border: 0;
     background-color: #3E5951;
     color: white;
-    font: inherit;
     cursor: pointer;
 }
 
